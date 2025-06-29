@@ -1,0 +1,6 @@
+/backend/liveAccidentClips/
+/backend/detectedAccidentsFromVideo/
+/backend/.env
+/backend/venv/
+/backend/node_modules/
+/backend/videoUploads/

@@ -1,0 +1,131 @@
+.container {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f8fafc;
+    min-height: 100vh;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+  
+  .header h2 {
+    font-size: 2.2rem;
+    color: #2d3748;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    background: linear-gradient(90deg, #dc2626, #b91c1c);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  
+  .header p {
+    color: #64748b;
+    font-size: 1.1rem;
+  }
+  
+  .registerForm {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    padding: 2rem;
+    border: 1px solid #e2e8f0;
+  }
+  
+  .formGroup {
+    margin-bottom: 1.5rem;
+  }
+  
+  .formLabel {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: #374151;
+    font-size: 0.95rem;
+  }
+  
+  .formInput {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    background-color: #f9fafb;
+  }
+  
+  .formInput:focus {
+    border-color: #dc2626;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.1);
+    background-color: white;
+  }
+  
+  .inputGroup {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .submitButton {
+    width: 100%;
+    padding: 0.9rem;
+    background: linear-gradient(to right, #dc2626, #b91c1c);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 1rem;
+  }
+  
+  .submitButton:hover {
+    background: linear-gradient(to right, #b91c1c, #991b1b);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(220, 38, 38, 0.2);
+  }
+  
+  .submitButton:active {
+    transform: translateY(0);
+  }
+  
+  .errorMessage {
+    color: #ef4444;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+  }
+  
+  .successMessage {
+    color: #10b981;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+  }
+  
+  .requiredIndicator {
+    color: #dc2626;
+    margin-left: 0.25rem;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 1.5rem;
+    }
+    
+    .header h2 {
+      font-size: 1.8rem;
+    }
+    
+    .registerForm {
+      padding: 1.5rem;
+    }
+    
+    .inputGroup {
+      grid-template-columns: 1fr;
+    }
+  }

@@ -1,0 +1,106 @@
+.signupContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    padding: 20px;
+  }
+  
+  .signupForm {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    transition: transform 0.3s ease;
+  }
+  
+  .signupForm:hover {
+    transform: translateY(-5px);
+  }
+  
+  .signupTitle {
+    text-align: center;
+    color: #2d3748;
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: 600;
+  }
+  
+  .inputField {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .inputField:focus {
+    border-color: #4facfe;
+    outline: none;
+  }
+  
+  .selectField {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23999%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.7rem top 50%;
+    background-size: 0.65rem auto;
+  }
+  
+  .selectField:focus {
+    border-color: #4facfe;
+    outline: none;
+  }
+  
+  .submitButton {
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .submitButton:hover {
+    background: linear-gradient(to right, #3d9bee, #00d9e6);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .errorMessage {
+    color: #e53e3e;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  .loginLink {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .loginLink a {
+    color: #4facfe;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .loginLink a:hover {
+    text-decoration: underline;
+  }
